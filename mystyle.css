@@ -2,9 +2,11 @@
     height: 60px;
     width: 160px;
 }
+.hed{
+    background-color: #F0FFF0;
+}
 .container-fluid{
-    margin-left: 150px;
-    margin-right: 70px;
+    background-color: #F0FFF0;
 }
 .xy{
     height: 43px;
@@ -48,7 +50,6 @@
 }
 .we{
     height: 300px;
-    width: 500px;
 }
 .xyz{
     margin-left: 150px;
@@ -62,6 +63,7 @@
 }
 .navbar{
     background-color: #F0FFF0;
+    padding-bottom: 0%;
 }
 .gr1{
     font-weight: bold;
@@ -169,4 +171,62 @@ line-height: 36px;
 .ewq{
     margin-top: 60px;
     margin-left: 60px;
+}
+@media screen and (max-width:600px) {
+    .we{
+        overflow: hidden;
+        height: 100px;
+    }
+    .xyz{
+        margin-left: 10px;
+        font-size: 70%;
+    }
+    .xyz h1{
+        font-size: 110%;
+    }
+    .xyy{
+        font-size: 80%;
+        height: 80%;
+        width: 80%;
+        border-radius: 0%;
+    }
+    .mna{
+        font-size: 70%;
+    }
+    .mna h5{
+        font-size: 110%;
+    }
+    .mna .book{
+        height: 25%;
+    }
+    .cxx{
+        margin-top: 0px;
+    }
+    .mna{
+        height: 60%;
+    }
+    .card1{
+        height: 460px;
+        width: 360px;
+        margin-left:15px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    .sewq{
+        display: inline;
+    }
+    .man{
+        width: 170px;
+        height: 140px;
+        margin-top: 35px;
+        margin-left: 33%;
+    }
+    .qwe{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+    .qwe h4{
+        margin-top: 70px;
+    }
 }
